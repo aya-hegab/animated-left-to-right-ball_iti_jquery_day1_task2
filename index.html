@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animated_left_to_right_ball</title>
+    <style>
+      #parent {
+        background-color: brown;
+        /* position: relative; */
+        width: 800px;
+      }
+      #child {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        margin-top: 10px;
+        border-radius: 50%;
+        /* position: absolute; */
+      }
+      input {
+        margin-top: 15px;
+      }
+    </style>
+    <!-- <script src="jquery-3.7.1.js"></script> -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="child"></div>
+    </div>
+    <input type="button" value="animate" />
+    <script src="script.js"></script>
+  </body>
+</html>
